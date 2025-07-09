@@ -12,3 +12,5 @@ from bs4 import BeautifulSoup
 # print(mysearch.text)
 
 # Create your views here.
+def home(request):
+    return render(request, "Main.html")
